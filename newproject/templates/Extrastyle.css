@@ -1,0 +1,62 @@
+.main {
+    display: grid;
+    padding: 30px;
+    background-color: green;
+}
+
+.GFG {
+    text-align: center;
+    font-size: 35px;
+    background-color: white;
+    color: green;
+    transform: skew(30deg, 30deg);
+}
+div.one{
+    height: 150px;
+    width: 150px;
+    border: 1px dashed black;
+    margin: 0 auto;
+    background: #FFEBEE;
+  }
+  div.one:hover{
+    height: 300px;
+    width: 300px;
+    background: #BBDEFB;
+    transition: height 2s, width 2s, background 2s;
+  }
+  #gfg {
+    animation-name: color;
+    animation-duration: 25s;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Times New Roman;
+}
+
+#gfg1 {
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#geek1 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: #090;
+    padding-bottom: 5px;
+}
+
+#geek2 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+}
+
+@keyframes text {
+    from {
+        margin-top: 675px;
+    }
+    to {
+        margin-top: 0px;
+    }
+}
